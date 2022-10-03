@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="conaitaner">
+      <nav class="navbar navbar-expand-sm navbar-white b">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col d-flex flex-row">
+             
+              <img class="logo" src="Images/logo2/logo2.png" alt="logo2">
+              <span class="line"></span> 
+              
+              <img  class="phone" src="Images/Group 8/Group 8.png" alt="">
+              
+                <p class="support">GetSupport</p>
+                <p class="number">724-307-8310</p>
+              
+              
+            </div>
+            
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <ul class="nav navbar-nav  d-flex flex-row menu">
+
+               
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                 
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Test 1</a></li>
+                        <li><a class="dropdown-item" href="#">Test 2</a></li>
+                        <li><a class="dropdown-item" href="#">Test 3</a></li>
+                      </ul>
+                    </li>
+                    
+                    <!-- <a class="nav-link" href="#">Services</a> -->
+               
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link toggle" href="#">
+                      <!-- <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+                      Popover on right
+                    </button> -->
+                      
+  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+   Get In Touch <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+  </svg>
+  </button>
+                  </a>
+                  </li>
+             
+              
+              </ul>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+//   var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+//   container: 'body'
+// })
+</script>
