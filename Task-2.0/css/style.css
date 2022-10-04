@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-support{
+  display: grid;
+}
+
+.phone{
+  text-decoration: none;
+  color: #D11F26;
+}
+
+.support{
+  font-size: 13px;
+}
+
+.brand{
+  margin: auto;
+}
+.line{
+  border:0.2px solid  #b0b3b7;
+  height: 35px;
+  
+}
+
+.nav-item{
+  font-size: 17px;
+}
+
+
+#phone {
+  width: 2vw;
+
+}
+
+#support {
+  top: 15px;
+  left: 30.5vw;
+  text-align: left;
+  line-height: 17px;
+
+  font-size: 0.7vw;
+  letter-spacing: 0px;
+  color: #231F20;
+  opacity: 1;
+  position: absolute;
+}
+
+#number {
+  top: 30px;
+  left: 30.5vw;
+  /* left: 565px; */
+  height: 27px;
+  text-align: left;
+  line-height: 27px;
+
+  font-size: 1vw;
+  letter-spacing: 0px;
+  color: #D11F26;
+  opacity: 1;
+  position: absolute;
+}
+
+
+.navbar-nav{
+  text-align: center;
+  line-height: 20px;
+
+  font-size: 15px;
+  color: #231F20;
+}
+
+
+#nav-l {
+  text-align: center;
+  line-height: 20px;
+
+  font-size: 15px;
+  color: #231F20;
+
+}
+
+#nav-l:hover {
+  color: #D11F26;
+}
+
+
+
+#Touch {
+  text-align: center;
+  align-items: center;
+  line-height: 20px;
+
+  font-size: 15px;
+  background-color: #D11F26;
+  color: #FFFFFF;
+}
+
+#su {
+  color: red;
+}
+
