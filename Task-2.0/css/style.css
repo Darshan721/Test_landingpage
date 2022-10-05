@@ -22,15 +22,21 @@ body {
 
 .support{
   font-size: 13px;
+  display: flex;
 }
 
-.brand{
+/* .brand{
   margin: auto;
-}
-.line{
-  border:0.2px solid  #b0b3b7;
+} */
+/* .line{
+  border:0.2px solid  #ECEAEA;
   height: 35px;
   
+} */
+
+.vr{
+  border:0.2px solid  #ECEAEA;
+  height: 35px;
 }
 
 .nav-item{
