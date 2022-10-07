@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -463,22 +464,34 @@ body {
 
 /* our service */
 
-.wrapper{
+.container{
   font-family: 'raleway';
   display: flex;
  justify-content: space-between;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
-  background: #fafafa;
+
 }
 
-.wrapper h1{
+.container h1{
   
-  font-size: 3em; 
-  margin: 25px 0;
-  text-align: center;  
-  font-weight: 500;
+  font-size: 20px; 
+  
+  text-align: left;  
+  color: #231F20;
+  font-family: 'Work Sans', sans-serif;
 }
+
+.container label{
+  font-size: 46px;
+  color: #231F20;
+  font-family: "Mulish", sans-serif;
+}
+
+.container label span{
+  color: #D11F26;
+}
+
 
 .content-box{
   
@@ -492,131 +505,72 @@ body {
 .card{
   min-height: 220px;
   width:320px;
-  padding: 30px;
-  border-radius: 5px;
   display: flex;
   justify-content:center;
   align-items: center;
   flex-direction: column;
   background: #fff;
   margin: 10px 4px;
-  box-shadow: 0px 15px 50px rgba(0,0,0,0.2);
-  
-  
-
+  border-radius: 0;
 }
 
 
-.card i{
-margin: 20px;
-color :#ff5724;
-
+.card i{ 
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
 }
 
 
-.card h2{
+.card .card-title{
 margin-bottom: 12px;
-font-weight: 400;
-text-align: center;
-
+color: #231F20;
+font-size: 26px;
+font-family: 'Mulish', sans-serif;
 
 }
 
 
 .card p{
-  color: #6c757d;
-  text-align: center;
-  
-  
+  color: #231F20;
   
 }
-.card:hover{
-  
-  
+
+
+
+.card-img, .card-img-top {
+  border-top-left-radius:0;
+    border-top-right-radius:0;
 }
+
+.card-line{
+  border: 1px solid #D11F26;
+  width: 40px;
+  margin-bottom: 4px;
+}
+
 
 .card:hover i,
-.card:hover p{
-  color: #fff
-  
-}
-
-.card:hover h2{
-  font-weight: 500;
-  color: #f2f2f2;
-}
-.card:nth-child(1):hover{
-  background:linear-gradient(45deg,
-  rgba(255,28,8,0,7) 0%,
-  rgba(255,0,82,0,7) 100%),
-      url('file:///E:/Html%20Web%20Design%20Codes/The%20Coffee%20Store/ourservices.html');
-  background-size: cover; 
-  
-  
-}
-
-.card:nth-child(2):hover{
-  background:linear-gradient(45deg,
-  rgba(255,28,8,0,7) 0%,
-  rgba(255,0,82,0,7) 100%),
-      url('file:///E:/Html%20Web%20Design%20Codes/The%20Coffee%20Store/ourservices.html');
-  background-size: cover; 
+.card:hover .card-title{
+    color: #D11F26;
+    
 }
 
 
 
-
-.card:nth-child(3):hover{
-  background:linear-gradient(45deg,
-  rgba(255,28,8,0,7) 0%,
-  rgba(255,0,82,0,7) 100%),
-      url('file:///E:/Html%20Web%20Design%20Codes/The%20Coffee%20Store/ourservices.html');
-  background-size: cover; 
-  
-  
-}
-
-
-
-.card:nth-child(4):hover{
-  background:linear-gradient(45deg,
-  rgba(255,28,8,0,7) 0%,
-  rgba(255,0,82,0,7) 100%),
-      url('file:///E:/Html%20Web%20Design%20Codes/The%20Coffee%20Store/ourservices.html');
-  background-size: cover; 
-  
-}
-
-.card:nth-child(5):hover{
-  background:linear-gradient(45deg,
-  rgba(255,28,8,0,7) 0%,
-  rgba(255,0,82,0,7) 100%),
-      url('file:///E:/Html%20Web%20Design%20Codes/The%20Coffee%20Store/ourservices.html');
-  background-size: cover; 
-}
-
-
-.card:nth-child(6):hover{
-  background:linear-gradient(45deg,
-  rgba(255,28,8,0,7) 0%,
-  rgba(255,0,82,0,7) 100%),
-      url('file:///E:/Html%20Web%20Design%20Codes/The%20Coffee%20Store/my%20color.png');
-  background-size: cover; 
-  
-}
-  
   /***Responsive****/
   
   
   @media (max-width: 991px)
   {
-      .wrapper{
+      .container{
           padding:25px;   
       }
-      .wrapper h1{
+      .container h1{
           font-size: 2.5em;
           font-weight:  600;
-          
+          margin-top: 70px;
       }
       .content-box{
           flex-direction: column;
