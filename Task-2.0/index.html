@@ -12,30 +12,25 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light header-nav">
     <div class="container">
-      <div class="w-100 d-flex justify-content-between ">
-        <div class="brand d-flex align-items-center mx-auto">
+      <div class="w-100 d-flex justify-content-between">
+        <div class="navbar-logo d-flex align-items-center">
           <div>
             <a href="#">
               <img class="navbar-band" src="Images/logo2/logo2.png" alt="">
             </a>
           </div>
-          <div class="vr mx-3"></div>
-          <div class="navbar-info d-none d-md-flex align-items-center me-4">
-            
-            
+          <div class="d-none d-md-flex line mx-3"></div>
+          <div class="navbar-info d-none d-md-flex align-items-center me-4"> 
             <img src="Images/Group 8/Group 8.png" alt="">
             <div class="navbar-support p-2">
-             <label class="support">Get Support</label> 
-              <a class="phone" href="tel://724-307-8310">724-307-8310</a>
+             <label>Get Support</label> 
+              <a href="tel://724-307-8310">724-307-8310</a>
             </div>
           </div>
         </div>
-
-        <div class="mx-auto mt-auto">
-
-
+        <div class="mt-auto">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -44,12 +39,11 @@
           <div class="collapse navbar-collapse d-md-flex justify-content-between" id="navbarSupportedContent">
             <ul class="navbar-nav  navbar-list mb-2 mb-lg-0">
               <li class="nav-item p-1">
-                <a class="nav-link active" id="nav-l" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" id="nav" aria-current="page" href="#">Home</a>
               </li>
-
               <li class="nav-item dropdown p-1">
-                <a class="nav-link dropdown-toggle active" id="nav-l" href="#" id="navbarDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle active"  href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" id="nav" aria-expanded="false">
                   Services
                 </a>
                 <ul class="dropdown-menu dmenu" aria-labelledby="navbarDropdown">
@@ -59,48 +53,114 @@
                 </ul>
               </li>
               <li class="nav-item p-1">
-                <a class="nav-link active" id="nav-l" href="#" tabindex="-1" aria-disabled="true">About</a>
+                <a class="nav-link active" id="nav" href="#" tabindex="-1" aria-disabled="true">About</a>
               </li>
               <li class="nav-item p-1">
-                <a class="nav-link active" id="nav-l" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                <a class="nav-link active" id="nav" href="#" tabindex="-1" aria-disabled="true">Blog</a>
               </li>
               <li class="nav-item p-1">
-                <button class="btn btn-outline-danger" id="Touch" type="submit" data-bs-toggle="modal"
+                <button class="btn btn-danger" type="submit" data-bs-toggle="modal" 
                   data-bs-target="#myModal">Get In Touch &nbsp;<i class="fa fa-angle-right"></i></button>
               </li>
             </ul>
-
-
           </div>
         </div>
       </div>
     </div>
   </nav>
-
   <!-- The Modal -->
   <div class="modal fade" id="myModal">
     <div class="modal-dialog">
       <div class="modal-content">
-
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Modal Heading</h4>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
-
         <!-- Modal body -->
         <div class="modal-body">
           Modal body..
         </div>
-
         <!-- Modal footer -->
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
         </div>
-
       </div>
     </div>
   </div>
+<div class="home-banner p-2">
+  <div class="container">
+    <div
+      class="row w-100 d-flex align-items-center justify-content-between"
+    >
+      <div class="col-lg-6">
+        <div class="home-banner-text">
+          <h1>Security Infrastructure <span>Monitoring</span></h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+            text.
+          </p>
+        </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start home-banner-btn">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Read More</button>
+            <button class="btn btn-danger  btn-lg px-4 me-md-2"  type="submit">Contact Us &nbsp;<i class="fa fa-angle-right"></i></button>
+          </div>
+        
+      </div>
+      <div class="col-10 col-sm-8 col-lg-6">
+        <div class="home-banner-img d-grid gap-2 d-md-flex justify-content-md-start">
+          
+          <img 
+            src="Images/Mask Group 1/MaskGroup.png"
+            alt="Snow"
+            class="home-banner-backimg"
+            style="width: 100%"
+          />
+          <div class="centered">
+            <img src="Images/Play Button/Play Button.png" data-bs-toggle="modal"
+            data-bs-target="#Modal"  alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="home-banner-backgroundtext bottom-left">
+    <label class="d-none d-md-flex">Flint Tech</label>
+  </div>
+</div>
+
+
+
+<!-- for home-banner -->
+  <!-- The Modal -->
+  <div class="modal fade" id="Modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Video</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h1>Earth:</h1>
+          <video width="320" height="240" controls>
+          
+            <source src="video/samplevideo.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <script src="js/jquery-3.6.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/popper.min.js"></script>
